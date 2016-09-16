@@ -1,5 +1,7 @@
 = Squid
 
+image::http://www.squid-cache.org/Artwork/Banner.png[Squid]
+
 [source]
 ----
 "Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more.
