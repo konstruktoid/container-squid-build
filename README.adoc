@@ -12,3 +12,8 @@ Windows and is licensed under the GNU GPL."
 ----
 
 Website: http://www.squid-cache.org/
+
+[source]
+----
+docker run  --cap-drop=all --cap-add={setgid,setuid} -d -p3128:3128 konstruktoid/squid
+----
