@@ -1,5 +1,8 @@
 = Squid
 
+
+image::https://images.microbadger.com/badges/image/konstruktoid/squid.svg[link="https://microbadger.com/images/konstruktoid/squid"]
+
 image::http://www.squid-cache.org/Artwork/Banner.png[Squid]
 
 [source]
