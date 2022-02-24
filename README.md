@@ -1,5 +1,8 @@
 # Squid
 
+_Please note that because of the changes to [Docker Automated Builds](https://docs.docker.com/docker-hub/builds/)
+many Docker images are now outdated and a manual build is required and recommended._
+
 ```sh
 "Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more.
 It reduces bandwidth and improves response times by caching and reusing
