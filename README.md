@@ -14,7 +14,7 @@ Windows and is licensed under the GNU GPL."
 [http://www.squid-cache.org](http://www.squid-cache.org/)
 
 ```sh
-docker build --no-cache --tag konstruktoid/squid -f Dockerfile .
-docker run  --cap-drop=all --cap-add={setgid,setuid} -d -p3128:3128 konstruktoid/squid
+podman build --no-cache --tag konstruktoid/squid -f Dockerfile .
+podman run --cap-drop=all --cap-add={setgid,setuid} -d -p3128:3128 konstruktoid/squid
 curl --proxy 127.0.0.1:3128 --head https://duckduckgo.com
 ```
